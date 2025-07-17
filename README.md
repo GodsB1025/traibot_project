@@ -4,19 +4,19 @@
 ## 🚀 주요 프로젝트
 
 ### 1. 백엔드 API 서버
-**🔗 [Repository](https://github.com/username/backend-project)**
+**🔗 [Repository](https://github.com/brain1401/trade-frontend)
 - **기술스택**: Node.js, Express, MongoDB
 - **주요기능**: RESTful API, JWT 인증, 실시간 채팅
 - **배포**: [Live Demo](https://backend-demo.com)
 
 ### 2. 프론트엔드 웹앱  
-**🔗 [Repository](https://github.com/username/frontend-project)**
+**🔗 [Repository](https://github.com/brain1401/trade-backend)**
 - **기술스택**: React, TypeScript, Tailwind CSS
 - **주요기능**: 반응형 UI, 상태관리, PWA
 - **배포**: [Live Demo](https://frontend-demo.com)
 
 ### 3. AI 백엔드 서비스
-**🔗 [Repository](https://github.com/username/ai-backend-project)**  
+**🔗 [Repository](https://github.com/brain1401/trade-python)**  
 - **기술스택**: Python, FastAPI, TensorFlow
 - **주요기능**: 머신러닝 모델 서빙, 이미지 분석
 - **배포**: [API 문서](https://ai-api-docs.com)
