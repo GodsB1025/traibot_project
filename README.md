@@ -170,6 +170,6 @@ docker-compose up -d --build
 | 이름 | 역할 | GitHub |
 | :--- | :--- | :--- |
 | 홍태극 | 팀장, Backend & AI Engine 총괄, Frontend 지원 | [GitHub 프로필](https://github.com/brain1401) |
-| 김경보 | Backend, Frontend 지원 | [GitHub 프로필](https://www.google.com/search?q=https://github.com/GodsB1025) |
-| 이광원 | Frontend | [GitHub 프로필](https://www.google.com/search?q=https://github.com/Lee-KwangWon) |
-| 윤선현 | Frontend | [GitHub 프로필](https://www.google.com/search?q=https://github.com/YOON-SEONHYUN) |
+| 김경보 | Backend, Frontend 지원 | [GitHub 프로필](https://github.com/GodsB1025) |
+| 이광원 | Frontend | [GitHub 프로필](https://github.com/Lee-KwangWon) |
+| 윤선현 | Frontend | [GitHub 프로필](https://github.com/YOON-SEONHYUN) |
