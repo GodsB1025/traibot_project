@@ -2,6 +2,13 @@
 
 복잡하고 파편화된 무역 규제 정보를 AI 채팅으로 명쾌하게 해결하고, 실시간 변동사항까지 알아서 챙겨주는 든든한 대화형 무역 정보 파트너입니다. TrAI-Bot은 신뢰할 수 있는 정보를 즉시 제공함으로써 중소기업의 규제 준수 비용과 운영 리스크를 획기적으로 절감하는 것을 목표로 합니다.
 
+## 📂 Repositories
+- Frontend (React, TypeScript) : https://github.com/brain1401/trade-frontend
+
+- Backend (Spring Boot, Java) : https://github.com/brain1401/trade-backend
+
+- AI Server (FastAPI, Python) : https://github.com/brain1401/trade-python
+
 -----
 
 ### 🔥 무엇을 해결하나요?
