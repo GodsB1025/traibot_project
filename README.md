@@ -123,7 +123,7 @@
 | :--- | :--- | :--- |
 | **Backend** | **Spring Boot, Java** | 입증된 안정성과 확장성, 강력한 엔터프라이즈 생태계를 바탕으로 복잡한 비즈니스 로직, 데이터베이스 관리, 인증 시스템을 견고하게 처리하기 위해 선택했습니다. |
 | **AI Server** | **FastAPI, Python** | Python의 풍부한 AI 라이브러리(LangChain 등)를 활용하고, 비동기 처리를 통한 높은 성능으로 AI 모델 추론 및 서빙에 최적화된 환경을 구축했습니다. |
-| **Frontend** | **React, TypeScript** | 컴포넌트 기반 아키텍처로 복잡한 UI를 효율적으로 관리하고, 정적 타이핑을 통해 코드 안정성과 유지보수성을 확보하기 위해 선택했습니다. |
+| **Frontend** | **React, TypeScript, Tanstack Router, Tanstack Query, Zustand** | 컴포넌트 기반 아키텍처로 복잡한 UI를 효율적으로 관리하고, 정적 타이핑을 통해 코드 안정성과 유지보수성을 확보하기 위해 선택했습니다. |
 | **Database** | **PostgreSQL, pgvector, pg_partman** | RAG 시스템의 핵심인 벡터 검색을 위해 **pgvector**를, 대용량 채팅 로그의 성능 저하를 방지하기 위해 **pg_partman**을 이용한 연도별 자동 파티셔닝을 도입하여 확장성을 확보했습니다. |
 | **AI & RAG** | **Claude 3, LangChain, Voyage AI** | 복잡한 규제 문서 해석에 강점을 보이는 **Claude 3**를 메인 모델로, **LangChain**으로 RAG 파이프라인을 구축했습니다. 고성능 **Voyage-3-large (1024차원)** 임베딩 모델로 검색 정확도를 높였습니다. |
 | **Cache & Queue** | **Redis** | 단순 캐싱을 넘어, SMS 인증 요청 시 Race Condition 제어, 신뢰성 있는 큐(Reliable Queue) 패턴을 적용해 알림 메시지 유실 방지 등 안정적인 분산 시스템을 구축했습니다. |
