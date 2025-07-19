@@ -388,7 +388,7 @@ npm run dev
 
 | 이름 | 역할 | GitHub |
 | :--- | :--- | :--- |
-| **홍태극** | 팀장, AI Engine 총괄, Backend | [brain1401](https://github.com/brain1401) |
+| **홍태극** | 팀장, AI 아키텍쳐, Backend | [brain1401](https://github.com/brain1401) |
 | **김경보** | Backend, Frontend | [GodsB1025](https://github.com/GodsB1025) |
 | **이광원** | Frontend | [Lee-KwangWon](https://github.com/Lee-KwangWon) |
 | **윤선현** | Frontend | [YOON-SEONHYUN](https://github.com/YOON-SEONHYUN) |
