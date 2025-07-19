@@ -3,11 +3,11 @@
 복잡하고 파편화된 무역 규제 정보를 AI 채팅으로 명쾌하게 해결하고, 실시간 변동사항까지 알아서 챙겨주는 든든한 대화형 무역 정보 파트너입니다. TrAI-Bot은 신뢰할 수 있는 정보를 즉시 제공함으로써 중소기업의 규제 준수 비용과 운영 리스크를 획기적으로 절감하는 것을 목표로 합니다.
 
 ## 📂 Repositories
-- Frontend (React, TypeScript) : https://github.com/brain1401/trade-frontend
+- Frontend (React, TypeScript) : https://github.com/GodsB1025/trade-frontend
 
-- Backend (Spring Boot, Java) : https://github.com/brain1401/trade-backend
+- Backend (Spring Boot, Java) : https://github.com/GodsB1025/trade-backend
 
-- AI Server (FastAPI, Python) : https://github.com/brain1401/trade-python
+- AI Server (FastAPI, Python) : https://github.com/GodsB1025/trade-python
 
 -----
 
@@ -121,13 +121,13 @@
 
 | 분야 | 기술 | 선택 이유 |
 | :--- | :--- | :--- |
-| **Backend** | **Spring Boot, Java** | 입증된 안정성과 확장성, 강력한 엔터프라이즈 생태계를 바탕으로 복잡한 비즈니스 로직, 데이터베이스 관리, 인증 시스템을 견고하게 처리하기 위해 선택했습니다. |
-| **AI Server** | **FastAPI, Python** | Python의 풍부한 AI 라이브러리(LangChain 등)를 활용하고, 비동기 처리를 통한 높은 성능으로 AI 모델 추론 및 서빙에 최적화된 환경을 구축했습니다. |
-| **Frontend** | **React, TypeScript, Tanstack Router, Tanstack Query, Zustand** | 컴포넌트 기반 아키텍처로 복잡한 UI를 효율적으로 관리하고, 정적 타이핑을 통해 코드 안정성과 유지보수성을 확보하기 위해 선택했습니다. |
-| **Database** | **PostgreSQL, pgvector, pg_partman** | RAG 시스템의 핵심인 벡터 검색을 위해 **pgvector**를, 대용량 채팅 로그의 성능 저하를 방지하기 위해 **pg_partman**을 이용한 연도별 자동 파티셔닝을 도입하여 확장성을 확보했습니다. |
-| **AI & RAG** | **Claude 3, LangChain, Voyage AI** | 복잡한 규제 문서 해석에 강점을 보이는 **Claude 3**를 메인 모델로, **LangChain**으로 RAG 파이프라인을 구축했습니다. 고성능 **Voyage-3-large (1024차원)** 임베딩 모델로 검색 정확도를 높였습니다. |
-| **Cache & Queue** | **Redis** | 단순 캐싱을 넘어, SMS 인증 요청 시 Race Condition 제어, 신뢰성 있는 큐(Reliable Queue) 패턴을 적용해 알림 메시지 유실 방지 등 안정적인 분산 시스템을 구축했습니다. |
-| **Communication** | **Server-Sent Events (SSE)** | AI의 답변 생성 과정을 실시간으로 보여주기 위해, 양방향 통신이 불필요한 해당 기능에는 WebSocket보다 가볍고 효율적인 SSE를 채택했습니다. |
+| **Backend** | <img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=java&logoColor=white"> <img src="https://img.shields.io/badge/Spring Boot-6DB33F?style=flat-square&logo=spring-boot&logoColor=white"> <img src="https://img.shields.io/badge/Spring Security-6DB33F?style=flat-square&logo=spring-security&logoColor=white"> <img src="https://img.shields.io/badge/JPA-59666C?style=flat-square"> <img src="https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white"> <img src="https://img.shields.io/badge/Swagger-85EA2D?style=flat-square&logo=swagger&logoColor=black"> | 입증된 안정성과 확장성, 강력한 엔터프라이즈 생태계를 바탕으로 복잡한 비즈니스 로직, 데이터베이스 관리, 인증 시스템을 견고하게 처리하기 위해 선택했습니다. |
+| **AI Server** | <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"> <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"> | Python의 풍부한 AI 라이브러리(LangChain 등)를 활용하고, 비동기 처리를 통한 높은 성능으로 AI 모델 추론 및 서빙에 최적화된 환경을 구축했습니다. |
+| **Frontend** | <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black"> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"> <img src="https://img.shields.io/badge/Tanstack-FF4154?style=flat-square&logo=tanstack&logoColor=white"> <img src="https://img.shields.io/badge/Zustand-000000?style=flat-square&logo=zustand&logoColor=white"> | 컴포넌트 기반 아키텍처로 복잡한 UI를 효율적으로 관리하고, 정적 타이핑을 통해 코드 안정성과 유지보수성을 확보하기 위해 선택했습니다. |
+| **Database** | <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"> <img src="https://img.shields.io/badge/pgvector-2E8555?style=flat-square"> <img src="https://img.shields.io/badge/pg_partman-663399?style=flat-square"> | RAG 시스템의 핵심인 벡터 검색을 위해 **pgvector**를, 대용량 채팅 로그의 성능 저하를 방지하기 위해 **pg_partman**을 이용한 연도별 자동 파티셔닝을 도입하여 확장성을 확보했습니다. |
+| **AI & RAG** | <img src="https://img.shields.io/badge/Claude 3-D97757?style=flat-square"> <img src="https://img.shields.io/badge/LangChain-FFFFFF?style=flat-square&logo=langchain&logoColor=black"> <img src="https://img.shields.io/badge/Voyage AI-1A2B34?style=flat-square"> | 복잡한 규제 문서 해석에 강점을 보이는 **Claude 3**를 메인 모델로, **LangChain**으로 RAG 파이프라인을 구축했습니다. 고성능 **Voyage-3-large (1024차원)** 임베딩 모델로 검색 정확도를 높였습니다. |
+| **Cache & Queue** | <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white"> | 단순 캐싱을 넘어, SMS 인증 요청 시 Race Condition 제어, 신뢰성 있는 큐(Reliable Queue) 패턴을 적용해 알림 메시지 유실 방지 등 안정적인 분산 시스템을 구축했습니다. |
+| **Communication** | <img src="https://img.shields.io/badge/SSE-FF6347?style=flat-square"> | AI의 답변 생성 과정을 실시간으로 보여주기 위해, 양방향 통신이 불필요한 해당 기능에는 WebSocket보다 가볍고 효율적인 SSE를 채택했습니다. |
 
 -----
 
@@ -282,13 +282,13 @@ gantt
 
 ```bash
 # Frontend
-git clone https://github.com/brain1401/trade-frontend.git
+git clone https://github.com/GodsB1025/trade-frontend.git
 
 # Spring Boot Backend
-git clone https://github.com/brain1401/trade-backend.git
+git clone https://github.com/GodsB1025/trade-backend.git
 
 # Python AI Server
-git clone https://github.com/brain1401/trade-python.git
+git clone https://github.com/GodsB1025/trade-python.git
 ```
 
 #### 2. 환경 변수 설정
