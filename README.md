@@ -166,15 +166,7 @@
 TrAI-Bot은 역할 분리를 통해 안정성과 효율성을 극대화했으며, 특히 **사용자 경험(UX) 최적화를 위해 설계된 '3단계 병렬 처리' 아키텍처**를 채택했습니다.
 
 #### 1️⃣ 전체 시스템 아키텍처
-
-```mermaid
-graph LR
-    A[사용자] -->|자연어 질문| B[Spring Boot Backend]
-    B -->|AI 추론 요청| C[FastAPI AI Server]
-    B -->|데이터 조회| D[PostgreSQL DB]
-    B -->|캐시 조회| E[Redis Cache]
-    B -->|실시간 응답| A
-```
+<img width="1546" height="807" alt="시스템 아키텍처" src="https://github.com/user-attachments/assets/872cf8a9-208c-4625-9530-7001954a3594" />
 
 #### 2️⃣ 3단계 병렬 처리 플로우
 
