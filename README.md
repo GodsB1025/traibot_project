@@ -166,7 +166,7 @@
 TrAI-Bot은 역할 분리를 통해 안정성과 효율성을 극대화했으며, 특히 **사용자 경험(UX) 최적화를 위해 설계된 '3단계 병렬 처리' 아키텍처**를 채택했습니다.
 
 #### 1️⃣ 전체 시스템 아키텍처
-<img width="1546" height="807" alt="시스템 아키텍처" src="https://github.com/user-attachments/assets/872cf8a9-208c-4625-9530-7001954a3594" />
+<img width="1546" height="807" alt="시스템 아키텍처" src="https://github.com/user-attachments/assets/3712b56d-2818-4481-bb87-838029487942" />
 
 #### 2️⃣ 3단계 병렬 처리 플로우
 
